@@ -1,0 +1,77 @@
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.logo{
+    width: 120px;
+}
+
+nav{
+    margin: auto;
+    width: 85%;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    background: url(../../../img/background.png);
+    font-family: sans-serif;
+}
+
+.list1 input{
+    padding: 13px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 5px;
+    color: white;
+    width: 200px;
+}
+
+.list1 select{
+    padding: 13px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 5px;
+    color: white;
+}
+
+.list2 input{
+    padding: 13px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 5px;
+    color: white;
+    width: 285px;
+}
+
+.position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.position button{
+    padding: 15px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+.cen{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

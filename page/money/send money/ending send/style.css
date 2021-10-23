@@ -1,0 +1,35 @@
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.logo{
+    width: 120px;
+}
+
+nav{
+    margin: auto;
+    width: 85%;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    background: url(../../../../img/background.png);
+    font-family: sans-serif;
+}
+
+.cen{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
